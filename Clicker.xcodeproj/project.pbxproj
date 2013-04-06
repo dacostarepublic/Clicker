@@ -21,6 +21,14 @@
 		96583D5516D34A2C006239EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96583D3616D34A2C006239EC /* Foundation.framework */; };
 		96583D5D16D34A2C006239EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96583D5B16D34A2C006239EC /* InfoPlist.strings */; };
 		96583D6016D34A2C006239EC /* ClickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96583D5F16D34A2C006239EC /* ClickerTests.m */; };
+		96583D6B16D34A70006239EC /* ClickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96583D6A16D34A70006239EC /* ClickerController.m */; };
+		96583D6E16D34ACA006239EC /* CustomClicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 96583D6D16D34ACA006239EC /* CustomClicker.m */; };
+		96583D7016D34C53006239EC /* Round_glossy_green_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 96583D6F16D34C53006239EC /* Round_glossy_green_button.png */; };
+		96583D7316D34E18006239EC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96583D7216D34E18006239EC /* QuartzCore.framework */; };
+		96583D7616D35A06006239EC /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 96583D7516D35A06006239EC /* SFHFKeychainUtils.m */; };
+		96583D7816D35BDA006239EC /* reset_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 96583D7716D35BDA006239EC /* reset_button.png */; };
+		96583D7A16D35D0D006239EC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96583D7916D35D0D006239EC /* Security.framework */; };
+		96583D7B16D35D4A006239EC /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 96583D7516D35A06006239EC /* SFHFKeychainUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,16 @@
 		96583D5C16D34A2C006239EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96583D5E16D34A2C006239EC /* ClickerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClickerTests.h; sourceTree = "<group>"; };
 		96583D5F16D34A2C006239EC /* ClickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickerTests.m; sourceTree = "<group>"; };
+		96583D6916D34A70006239EC /* ClickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClickerController.h; sourceTree = SOURCE_ROOT; };
+		96583D6A16D34A70006239EC /* ClickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickerController.m; sourceTree = SOURCE_ROOT; };
+		96583D6C16D34ACA006239EC /* CustomClicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomClicker.h; sourceTree = "<group>"; };
+		96583D6D16D34ACA006239EC /* CustomClicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomClicker.m; sourceTree = "<group>"; };
+		96583D6F16D34C53006239EC /* Round_glossy_green_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Round_glossy_green_button.png; sourceTree = "<group>"; };
+		96583D7216D34E18006239EC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		96583D7416D35A06006239EC /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		96583D7516D35A06006239EC /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
+		96583D7716D35BDA006239EC /* reset_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset_button.png; sourceTree = "<group>"; };
+		96583D7916D35D0D006239EC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96583D7A16D35D0D006239EC /* Security.framework in Frameworks */,
+				96583D7316D34E18006239EC /* QuartzCore.framework in Frameworks */,
 				96583D3516D34A2C006239EC /* UIKit.framework in Frameworks */,
 				96583D3716D34A2C006239EC /* Foundation.framework in Frameworks */,
 				96583D3916D34A2C006239EC /* CoreGraphics.framework in Frameworks */,
@@ -82,6 +102,9 @@
 		96583D2816D34A2C006239EC = {
 			isa = PBXGroup;
 			children = (
+				96583D7916D35D0D006239EC /* Security.framework */,
+				96583D7216D34E18006239EC /* QuartzCore.framework */,
+				96583D7116D34C5D006239EC /* images */,
 				96583D3A16D34A2C006239EC /* Clicker */,
 				96583D5816D34A2C006239EC /* ClickerTests */,
 				96583D3316D34A2C006239EC /* Frameworks */,
@@ -112,6 +135,10 @@
 		96583D3A16D34A2C006239EC /* Clicker */ = {
 			isa = PBXGroup;
 			children = (
+				96583D6C16D34ACA006239EC /* CustomClicker.h */,
+				96583D6D16D34ACA006239EC /* CustomClicker.m */,
+				96583D6916D34A70006239EC /* ClickerController.h */,
+				96583D6A16D34A70006239EC /* ClickerController.m */,
 				96583D4316D34A2C006239EC /* AppDelegate.h */,
 				96583D4416D34A2C006239EC /* AppDelegate.m */,
 				96583D3B16D34A2C006239EC /* Supporting Files */,
@@ -122,6 +149,8 @@
 		96583D3B16D34A2C006239EC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				96583D7416D35A06006239EC /* SFHFKeychainUtils.h */,
+				96583D7516D35A06006239EC /* SFHFKeychainUtils.m */,
 				96583D3C16D34A2C006239EC /* Clicker-Info.plist */,
 				96583D3D16D34A2C006239EC /* InfoPlist.strings */,
 				96583D4016D34A2C006239EC /* main.m */,
@@ -150,6 +179,15 @@
 				96583D5B16D34A2C006239EC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96583D7116D34C5D006239EC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				96583D6F16D34C53006239EC /* Round_glossy_green_button.png */,
+				96583D7716D35BDA006239EC /* reset_button.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +265,7 @@
 				96583D4716D34A2C006239EC /* Default.png in Resources */,
 				96583D4916D34A2C006239EC /* Default@2x.png in Resources */,
 				96583D4B16D34A2C006239EC /* Default-568h@2x.png in Resources */,
+				96583D7016D34C53006239EC /* Round_glossy_green_button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96583D5D16D34A2C006239EC /* InfoPlist.strings in Resources */,
+				96583D7816D35BDA006239EC /* reset_button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +301,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96583D7B16D35D4A006239EC /* SFHFKeychainUtils.m in Sources */,
 				96583D4116D34A2C006239EC /* main.m in Sources */,
 				96583D4516D34A2C006239EC /* AppDelegate.m in Sources */,
+				96583D6B16D34A70006239EC /* ClickerController.m in Sources */,
+				96583D6E16D34ACA006239EC /* CustomClicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96583D6016D34A2C006239EC /* ClickerTests.m in Sources */,
+				96583D7616D35A06006239EC /* SFHFKeychainUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
